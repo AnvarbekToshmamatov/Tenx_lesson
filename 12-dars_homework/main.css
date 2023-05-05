@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* header qism boshlandi */
+
+header {
+    border: 1px solid blue;
+    background-color: rgb(124, 205, 240);
+    /* position: relative;
+    position: fixed; */
+}
+
+header .container {
+
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+
+}
+
+header .container .header_nav ul a {
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    transition: 0.7s;
+}
+
+header .container .header_nav ul li a:hover {
+    color: beige;
+    transform: scale(1.1);
+}
+
+header .container .header_nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+
+header .container .header_nav ul li a button {
+    padding: 10px 40px;
+    margin-top: -5px;
+    background-color: coral;
+    color: white;
+    border-radius: 20px;
+
+}
+
+header .container .header_nav ul li a button :hover {
+    transform: scale(1.1);
+}
+
+/* headir qism tugadi */
+
+.home {
+
+    background-image: url(img/orqa\ fon\ 12-dars1.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/orqa\ fon\ 12-dars1.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.home .container {
+    padding-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(3, 386px);
+    gap: 40px;
+    align-items: center;
+}
+
+.home .container .home_1 {
+    border: 2px solid green;
+    height: 300px;
+    text-align: center;
+    background-color: rgb(225, 243, 244);
+    border-radius: 25px;
+    box-shadow: 20px 20px 20px rgb(42, 47, 48);
+    transition: 0.7s;
+}
+
+.home .container .home_1 h1 {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.home .container .home_1 p {
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+
+}
+
+.home .container .home_1:hover {
+    transform: scale(1.1);
+}

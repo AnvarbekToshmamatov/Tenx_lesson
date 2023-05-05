@@ -1,0 +1,301 @@
+/* Universal kodlar */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+
+/* header qismi boshlandi */
+
+#header {
+    margin-top: 30px;
+    align-items: center;
+
+
+}
+
+#header .container {
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+}
+
+#header .container .header_logo {
+    margin: 76px 209px 86px 100px;
+    display: flex;
+
+}
+
+#header .container .headir_logo h1 {
+    margin-left: 13px;
+    position: absolute;
+    left: 22.28%;
+    right: 0%;
+    top: 8.33%;
+    bottom: 12.33%;
+    background: #000000;
+}
+
+#header .container .headir_nav ul li {
+    display: inline;
+}
+
+#header .container ul li a {
+    width: 88px;
+    height: 28px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+#header .container .headir_nav ul li a:hover {
+    color: orange;
+}
+
+.header_nav {
+    display: flex;
+}
+
+.header_nav ul {
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+}
+
+.header_nav button {
+    padding: 20px 40px;
+    margin-top: -20px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.header_nav button span {
+    margin: 16px 40px;
+    width: 161px;
+    height: 28px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+/* seliction qism boshlandi */
+
+#seliction .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seliction_t_bag {
+
+    margin: 86px 108px 35px 0px;
+    width: 531px;
+    height: 231px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 77px;
+    color: #000000;
+
+}
+
+.seliction_t_k {
+
+    margin: 0px 141px 35px 0px;
+    width: 498px;
+    height: 112px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.seliction_button {
+    margin: 0px 375px 116px 0px;
+}
+
+.seliction_button button {
+
+    text-align: center;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 35px;
+    gap: 10px;
+    width: 264px;
+    height: 68px;
+    background: #191A23;
+    border-radius: 14px;
+
+}
+
+.seliction_button button a {
+
+    width: 194px;
+    height: 28px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.seliction_photo {
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+/* seliction qism tugadi */
+
+/* logo section qism boshlandi */
+
+.logo_section ul {
+    display: flex;
+    gap: 96.51px;
+    margin-bottom: 143px;
+
+}
+
+/* ------------------------------------------------------------------- */
+
+.text_section .container {
+    display: flex;
+    gap: 40px;
+}
+
+.text_section .container button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 7px;
+    gap: 10px;
+    width: 178px;
+    height: 51px;
+    background: #B9FF66;
+    border-radius: 7px;
+}
+
+.text_section .container button span {
+    width: 164px;
+    height: 51px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+    color: #000000;
+}
+
+.text_section .container p {
+    width: 580px;
+    height: 46px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+/* ----------------------------------------------------------- */
+
+.section_media {
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.section_media1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 77px;
+    width: 600px;
+    height: 310px;
+    background: #F3F3F3;
+    border: 1px solid #191A23;
+    box-shadow: 0px 5px 0px #191A23;
+    border-radius: 45px;
+}
+
+.section_media2 {
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 77px;
+    width: 600px;
+    height: 310px;
+    background: #B9FF66;
+    border: 1px solid #191A23;
+    box-shadow: 0px 5px 0px #191A23;
+    border-radius: 45px;
+}
+
+.section_media3 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 77px;
+    width: 600px;
+    height: 310px;
+    background: #191A23;
+    border: 1px solid #191A23;
+    box-shadow: 0px 5px 0px #191A23;
+    border-radius: 45px;
+}
+
+.section_media4 {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 77px;
+    width: 600px;
+    height: 310px;
+    background: #F3F3F3;
+    border: 1px solid #191A23;
+    box-shadow: 0px 5px 0px #191A23;
+    border-radius: 45px;
+
+}

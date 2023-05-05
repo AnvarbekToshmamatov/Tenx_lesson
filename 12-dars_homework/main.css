@@ -15,6 +15,7 @@ a {
 .container {
     width: 1240px;
     margin: 0 auto;
+    position: relative;
 }
 
 /* header qism boshlandi */
@@ -120,4 +121,96 @@ header .container .header_nav ul li a button :hover {
 
 .home .container .home_1:hover {
     transform: scale(1.1);
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+#love .container {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    margin: 10 auto;
+
+
+}
+
+#love {
+    background-image: url(img/0rqa\ fon\ 13-dars.jpeg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/0rqa\ fon\ 13-dars.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.love1 {
+    width: 160px;
+    height: 200px;
+    background-color: red;
+    border-radius: 100px 80px 0 10px;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+
+    /* margin-bottom: 200px; */
+    transform: rotate(45deg);
+
+}
+
+.love1::before {
+    content: "";
+    position: absolute;
+    transform: rotate(-90deg);
+    width: 160px;
+    height: 240px;
+    margin-top: 30px;
+    margin-left: -20px;
+    margin-left: -120px;
+    background-color: red;
+    border-radius: 80px 100px 0 0;
+}
+
+.k1 {
+    width: 9px;
+    height: 200px;
+    transform: rotate(27deg);
+    margin-left: 100px;
+    margin-top: -60px;
+    border-radius: 25px;
+    background-color: burlywood;
+}
+
+.k2 {
+    width: 8px;
+    height: 90px;
+    transform: rotate(27deg);
+    margin-left: -10px;
+    margin-top: 83px;
+    border-radius: 25px 0 0 0;
+    background-color: burlywood;
+    position: relative;
+}
+
+.k2::before {
+    position: absolute;
+    width: 10px;
+    height: 25px;
+    content: "";
+    transform: rotate(130deg);
+    margin-left: -15px;
+    margin-top: 73px;
+    background-color: burlywood;
+}
+
+.k2::after {
+    position: absolute;
+    width: 10px;
+    height: 28px;
+    content: "";
+    transform: rotate(220deg);
+    margin-left: 2px;
+    margin-top: 74px;
+    background-color: burlywood;
 }

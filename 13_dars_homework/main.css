@@ -1,0 +1,74 @@
+ body {
+
+     display: grid;
+     grid-template-columns: repeat(3, 272px);
+     gap: 0px;
+     padding-left: 450px;
+     box-sizing: border-box;
+
+ }
+
+ .Bag1 {
+     width: 272px;
+     height: 275px;
+     border: 3px solid red;
+     display: grid;
+     grid-template-columns: repeat(3, 90px);
+     margin: 0;
+     gap: 0px;
+     background-color: rgb(130, 213, 213);
+ }
+
+ .Bag1_1 {
+     background-color: rgb(130, 213, 213);
+ }
+
+ .Bag1-1 {
+     background-color: aqua;
+ }
+
+ .Bag {
+     width: 272px;
+     height: 275px;
+     border: 3px solid red;
+     display: grid;
+     grid-template-columns: repeat(3, 90px);
+     margin: 0;
+     gap: 0px;
+
+ }
+
+
+ .Bag div {
+
+     border: 1px solid red;
+     width: 90px;
+     height: 90px;
+     text-align: center;
+     align-items: center;
+     margin: 0;
+ }
+
+ .Bag1 div {
+
+     border: 1px solid red;
+     width: 90px;
+     height: 90px;
+     text-align: center;
+     align-items: center;
+     margin: 0;
+ }
+
+ div span {
+     width: 24px;
+     height: 30px;
+     left: 17px;
+     top: 6px;
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 80px;
+     line-height: 100%;
+
+
+ }

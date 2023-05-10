@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    /* background-image: url(img/orqa\ fon\ 9-dars.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/orqa\ fon\ 9-dars.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    gap: 40px;
+    margin: 100px 300px;
+    background-color: antiquewhite;
+    padding: 30px;
+    position: fixed;
+    border-radius: 25px;
+    box-shadow: 0 0 30px black;
+
+}
+
+.container:hover {
+    transform: scale(1.1);
+
+}
+
+.div2:hover {
+    border: 1px solid transparent;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: rgb(0, 255, 60);
+    font-size: 50px;
+    transform: scale(1.1);
+    border: 1px solid red;
+}
+
+.rang {
+    width: 15px;
+    height: 59px;
+    background: rgb(50, 81, 205);
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.rang1 {
+    width: 15px;
+    height: 59px;
+    background: rgb(0, 255, 60);
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.rang2 {
+    width: 15px;
+    height: 60px;
+    background: rgb(242, 255, 0);
+    display: inline-block;
+    border-radius: 5px;
+}
+
+h3 {
+    margin-top: 0;
+    display: inline-block;
+}
+
+.div1:hover {
+    border: 1px solid transparent;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    background: rgb(50, 81, 205);
+    transform: scale(1.1);
+    border: 1px solid red;
+
+}
+
+.div3:hover {
+
+    border: 1px solid transparent;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: rgb(242, 255, 0);
+    font-size: 50px;
+    transform: scale(1.1);
+    border: 1px solid red;
+}
+
+.div2 {
+    border: 1px solid red;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 45px;
+    /*    padding-left: 30px;*/
+    display: inline-flex;
+
+}
+
+.div1 {
+
+    border: 1px solid red;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 45px;
+    /*    padding-left: 30px;*/
+    display: inline-flex;
+    overflow: hidden;
+
+}
+
+.div3 {
+
+    border: 1px solid red;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 45px;
+    /*    padding-left: 30px;*/
+    display: inline-flex;
+}

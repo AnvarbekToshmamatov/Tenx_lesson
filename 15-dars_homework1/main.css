@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: gold;
+}
+
+.container {
+    width: 800px;
+    height: 80vh;
+    margin: 30px auto;
+    border: 1px solid;
+    background-color: rgb(31, 31, 29);
+    border-radius: 20px;
+    box-shadow: 0 0 20px green;
+}
+
+.div {
+    margin-left: 100px;
+    margin-top: 180px;
+    width: 80px;
+    height: 80px;
+    background-color: chocolate;
+    position: relative;
+}
+
+
+@keyframes anim {
+    0% {
+        transform: translateX(0);
+        background-color: rgb(230, 141, 78);
+        border-radius: 10%;
+
+
+    }
+
+    1% {
+        transform: translateX(5px);
+        width: 80px;
+        height: 80px;
+        border-radius: 30%;
+        background-color: rgb(206, 141, 94);
+    }
+
+
+    2% {
+        transform: translateX(10px);
+        width: 80px;
+        height: 80px;
+        border-radius: 40%;
+        background-color: rgb(226, 168, 126);
+    }
+
+
+    100% {
+        transform: translateX(400px);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: aliceblue;
+    }
+}
+
+.container:active {
+    cursor: pointer;
+}
+
+.container:active .div::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    border: 1px solid;
+    height: 80px;
+    /* border-radius: 50%; */
+    cursor: pointer;
+    background-color: chocolate;
+    border: none;
+    animation-name: anim;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.5s;
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: alternate; */
+}

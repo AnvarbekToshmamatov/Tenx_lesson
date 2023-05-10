@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+
+}
+
+.items {
+    width: 500px;
+    margin: 20px auto;
+    background-color: rgb(62, 185, 55);
+    padding: 15px;
+    border-radius: 20px;
+    color: aliceblue;
+    box-shadow: 0 0 20px rgb(13, 14, 13);
+    /* overflow: hidden; */
+    /* height: 80px; */
+}
+
+.items input {
+    display: none;
+
+}
+
+.items>.div {
+    overflow: hidden;
+    height: 0px;
+
+}
+
+.items p {
+    margin: 20px 0;
+}
+
+.item_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+.item_flex span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.items button {
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: rgb(7, 232, 7);
+    color: aliceblue;
+    border: none;
+}
+
+/* 
+.items input[type="checkbox"]:checked+.div {
+    height: 0px;
+} */
+
+
+.items:has(input[type="checkbox"]:checked) .div {
+    height: 225px;
+    padding: 0;
+
+}
+
+/* 
+input[type="checkbox"]:checked,
+.div {
+    height: 290px;
+} */

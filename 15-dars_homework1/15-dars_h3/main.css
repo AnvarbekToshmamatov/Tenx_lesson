@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes anim {
+    0% {
+        transform: translateY(-300px);
+    }
+
+
+    100% {
+        transform: translateY(0px);
+       
+    }
+}
+
+
+.container {
+    width: 600px;
+    height: 70vh;
+    margin: 100px auto;
+    background-color: rgb(28, 26, 26);
+    display: flex;
+    padding: 180px;
+
+}
+
+
+.container:active {
+    cursor: pointer;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6 {
+    width: 40px;
+    /* height: 40px; */
+    position: relative;
+    margin-right: 5px;
+}
+
+
+.container:active .div1::after {
+    content: "H";
+    font-size: 200;
+    /* bottom: 300px; */
+    color: red;
+    position: absolute;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 120%;
+    animation-name: anim;
+    animation-duration: 0.6s;
+    /* animation-iteration-count: infinite; */
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    /* animation-name: anim2;
+    animation-duration: 0.9s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate; */
+}
+
+.container:active .div2::after {
+    content: "E";
+    font-size: 200;
+    /* bottom: 300px; */
+    color: rgb(17, 255, 0);
+    position: absolute;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 120%;
+    animation-name: anim;
+    animation-duration: 0.8s;
+    /* animation-iteration-count: infinite; */
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+
+.container:active .div3::after {
+    content: "L";
+    font-size: 200;
+    /* bottom: 300px; */
+    color: rgb(0, 149, 255);
+    position: absolute;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 120%;
+    animation-name: anim;
+    animation-duration: 1s;
+    /* animation-iteration-count: infinite; */
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+.container:active .div4::after {
+    content: "L";
+    /* bottom: 300px; */
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 120%;
+    color: rgb(255, 0, 179);
+    position: absolute;
+    animation-name: anim;
+    animation-duration: 1.2s;
+    /* animation-iteration-count: infinite; */
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+.container:active .div5::after {
+    content: "0";
+    font-size: 200;
+    /* bottom: 300px; */
+    color: rgb(234, 255, 0);
+    position: absolute;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 120%;
+    animation-name: anim;
+    animation-duration: 1.4s;
+    /* animation-iteration-count: infinite; */
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+.container:active .div6::after {
+    content: ":)";
+    font-size: 200;
+    /* bottom: 300px; */
+    color: rgb(0, 191, 255);
+    position: absolute;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 120%;
+    animation-name: anim;
+    animation-duration: 1.6s;
+    /* animation-iteration-count: infinite; */
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}

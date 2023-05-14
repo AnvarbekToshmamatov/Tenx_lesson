@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+}
+
+/* 
+
+.box {
+
+    margin-top: 100px;
+    margin-left: 200px;
+    position: relative;
+
+}
+
+@keyframes anim {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(40px);
+    }
+}
+
+.box label {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    background-color: aquamarine;
+    border: 1px solid;
+    overflow: hidden;
+
+}
+
+.box label span {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    background-color: blue;
+    padding: 5px;
+    color: aliceblue;
+}
+
+input {
+    display: none; 
+}
+
+input[type="checbox"]:checked+label span {
+
+    animation-name: anim;
+    animation-duration: 1s;
+    animation-direction: alternate;
+} */
+
+
+
+
+
+
+
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  */
+
+.checbox2 {
+    margin-left: 600px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.checbox2 label {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.checbox2 label span {
+    position: absolute;
+    top: -4px;
+    left: 2px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: blue;
+    transition: 0.7s;
+}
+
+.checbox2 input {
+    display: none;
+}
+
+.checbox2 input[type="checkbox"]:checked+label span {
+    left: 40px;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+.checkbox3 {
+    margin-left: 400px;
+    position: relative;
+
+}
+
+
+.checkbox3 label {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.checkbox3 label span {
+    position: absolute;
+
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: blue;
+    transition: 0.7s;
+
+}
+
+.checkbox3 span::before {
+    position: absolute;
+    content: "ON";
+    color: rgb(60, 58, 58);
+    background-color: aliceblue;
+
+    top: 10px;
+    left: -30px;
+}
+
+.checkbox3 span::after {
+    position: absolute;
+    content: "OFF";
+    color: rgb(60, 58, 58);
+    background-color: aliceblue;
+    left: 40px;
+    top: 10px;
+
+}
+
+.checkbox3 input {
+    display: none;
+}
+
+.checkbox3 input[type="checkbox"]:checked+label span {
+    left: 40px;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+/* 
+.button button {
+    margin-left: 200px;
+    padding: 20px;
+    background-color: rgb(4, 215, 4);
+    box-shadow: 0 0 20px rgb(4, 215, 4);
+    color: aliceblue;
+    position: relative;
+    border: none;
+}
+
+.button button::after {
+
+    position: absolute;
+    width: 75px;
+    top: 58px;
+    left: -1px;
+    content: "Neon Button";
+    padding: 20px;
+    background-color: rgb(4, 215, 4);
+    background: linear-gradient(rgba(4, 215, 4, 0.3), rgba(4, 215, 4, 0.3));
+    color: aliceblue;
+    transform: rotate(180deg);
+} */
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+
+.btn_container button {
+    width: 120px;
+    padding: 20px;
+    background-color: rgb(17, 226, 17);
+    border: none;
+    margin-left: 300px;
+    color: aliceblue;
+    position: relative;
+    transition: all 0.5s ease;
+    margin-bottom: 300px;
+    cursor: pointer;
+
+}
+
+
+.btn_container button::after {
+    position: absolute;
+    z-index: -1;
+    width: 80px;
+    left: -301px;
+    top: 56px;
+    content: "Neon Button";
+    padding: 20px;
+    background-color: rgb(17, 226, 17);
+    background: linear-gradient(white, rgba(17, 226, 17, 0.5));
+    border: none;
+    transform: rotateX(180deg) translateY(100%);
+    margin-left: 300px;
+    color: aliceblue;
+    transition: all 0.7s ease;
+
+}
+
+.btn_container button:hover {
+    box-shadow: 0 0 30px 4px rgb(17, 226, 17);
+    background-color: white;
+    border: 2px solid white;
+    color:rgb(17, 226, 17)
+}
+
+.btn_container button:hover::after {
+    transform: rotateX(180deg) translateY(10%);
+}

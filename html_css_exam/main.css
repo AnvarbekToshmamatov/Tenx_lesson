@@ -10,9 +10,19 @@
     background-color: #000000;
     margin: 0 auto;
     border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+@font-face {
+    font-family: Anton;
+    src: url(fonts/Anton-Regular.ttf);
+}
 
+@font-face {
+    font-family: Poppims;
+    src: url(fonts/Poppins-BlackItalic.ttf);
+}
 
 /* header start */
 
@@ -41,6 +51,7 @@ header{
 
 .header__logo{
     display: flex;
+    cursor: pointer;
 }
 
 .header__logo span{
@@ -79,14 +90,14 @@ header{
     
 }
 
+.header__nav ul li a:active{
+    color: #FEE140;
+}
+
 .headir__button__input{
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     gap: 0px;
-}
-
-.header__input input[type="checkbox"]:checked + .body__container{
-    background-color: #646464;
 }
 
 .header__input label .aylana{
@@ -98,6 +109,16 @@ header{
     background: #FFEC70;
     border-radius: 32px; 
     position: relative;
+    overflow: hidden;
+}
+
+.header__input:has(input[type="checkbox"]:checked) .anim{
+    transform: translateX(20px);
+    transition: 0.7s;
+}
+
+.anim{
+    position: relative;
 }
 
 .header__input input{
@@ -105,13 +126,19 @@ header{
     margin-top: 5px;
 }
 
-.header__input label .aylana img{
+
+.header__input label .aylana #img1{
     position: absolute;
     left: 35px;
     
 }
 
-.header__input label .aylana::before{
+.header__input label .aylana img{
+    position: absolute;
+    left: -35px;
+}
+
+.header__input label .anim::before{
     content: "";
     width: 25px;
     height: 28px;
@@ -131,6 +158,7 @@ header{
     background: #925FF0;
     border-radius: 4px;  
     border: none;  
+    cursor: pointer;
 }
 
 .header__button button span{
@@ -159,7 +187,6 @@ header{
     flex-direction: row;
     align-items: center;
     padding: 0px 100px;
-    /* gap: 19px; */
     width: 1728px;
     height: 778px; 
     background-color: #000000;  
@@ -176,7 +203,7 @@ header{
     font-family: 'Anton';
     font-style: normal;
     font-weight: 400;
-    font-size: 150px;
+    font-size: 200px;
     line-height: 90%;
     display: flex;
     align-items: center;
@@ -191,7 +218,7 @@ header{
     font-family: 'Anton';
     font-style: normal;
     font-weight: 400;
-    font-size: 87px;
+    font-size: 114px;
     line-height: 90%;
     display: flex;
     align-items: center;
@@ -200,7 +227,7 @@ header{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    /* text-fill-color: transparent; */
     margin-bottom: 75px;
     
 }
@@ -428,6 +455,7 @@ header{
     flex-wrap: wrap;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
+    flex-wrap: wrap;
 }
 /* ------------portfolio end----------- */
 
@@ -455,6 +483,7 @@ header{
 .skills__box_container{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -479,6 +508,12 @@ header{
 
 .skills__img{
     position: relative;
+
+}
+
+.skills__img:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
 }
 
 .skills__img::before{
@@ -590,8 +625,10 @@ header{
 }
 
 .About img:hover{
-    transform: scale(1.1);
+    transform: scale(1.07);
     transition: 0.7s;
+    border-radius: 35px;
+    box-shadow: 0 0 20px 8px #FEE140;
 }
 
 .About__box p{
@@ -628,6 +665,7 @@ header{
 
 .about_text2{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -635,6 +673,7 @@ header{
 .about__text3{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 /* -------------about end--------------- */
 /* -------------thenks start----------- */
@@ -683,6 +722,7 @@ header{
 
 .footer .container{
     display: grid;
+    flex-wrap: wrap;
     grid-template-columns: 0.3fr 1.7fr;
     gap: 1000px;
 }
@@ -703,11 +743,64 @@ header{
 
 /* --------------media--------------- */
 
-@media (min-width:0)and(max-width:1024px){
+
+@media(min-width:0) and (max-width:430px){
+
+    
+
+    .product{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0.9fr 0.1fr;
+    }
+
     .body__container{
-        /* width: 100%; */
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .portfolio__box__c{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    #portofil__box6{
+        display: none;
+    }
+
+    .Job{
+        display: flex;
+        justify-content: flex-start;
+        /* margin-left: -140%; */
+    }
+
+    .About{
+        display: flex;
+        width: 100%;
+    }
+
+    .header__nav{
+        display: none;
+    }
+
+    .headir__button__input{
+        display: none;
+    }
+
+    .skills__box_container{
+        display: grid;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+
+    .produst__text__bag{
+        width: 1000px;
     }
 
     .Job{
@@ -715,18 +808,160 @@ header{
     }
 
     .portfolio__box__c{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
         gap: 30px;
+        justify-content: center;
+        /* width: 45%; */
+    }
+
+    .portfolio__box{
+        width: 95%;
+        height: 95%;
+    }
+
+    .portfolio__box img{
+        width: 300px;
+        height: 200px;
+        width: 95%;
+
+    }
+
+    .portfolio__box p{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .portfolio__button{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        margin-left: -20px;
+        margin: 0 auto;
+    }
+
+    .portfolio__a{
+        margin: 0 auto;
+        width: 95%;
+    }
+    .portfolio{
+        display: flex;
+        justify-content: center;
+    }
+
+    .box6{
+        display: none;
+    }
+    .skills__box_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 45%;
+        
+    }
+    .Skills{
+        margin-top: 1900px;
+        display: flex;
+        /* justify-content: center; */
+        width: 90%;
+    }
+
+    .skills__box{
+        width: 190%;
+    }
+
+    .Kaleb{
+        margin-top: 900px;
+    }
+}
+
+
+@media (min-width:431px) and (max-width:1024px){
+
+    
+    .body__container{
+        
+       margin: 0 auto;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: 1fr;
+    }
+
+    .produst__text__bag{
+        width: 1000px;
+    }
+
+    .Job{
+        width: 100%;
+    }
+
+    .portfolio__box__c{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        /* width: 45%; */
+    }
+
+    .portfolio__box{
+        width: 45%;
+    }
+
+    .portfolio__box img{
+        width: 95%;
+
+    }
+
+    .portfolio__box p{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .portfolio__button{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .portfolio__a{
+        margin: 0 auto;
+    }
+    .portfolio{
+        display: flex;
+        justify-content: center;
     }
 
     #portofil__box6{
+
         display: none;
     }
 
     .skills__box_container{
         display: grid;
         grid-template-columns: 1fr;
+        width: 45%;
+        
     }
+    .Skills{
+        margin-top: 500px;
+        display: flex;
+        /* justify-content: center; */
+        width: 90%;
+    }
+
+    .skills__box{
+        width: 190%;
+    }
+
+    .Kaleb{
+        margin-top: 900px;
+    }
+
+}
+
+@media (min-width:1025px){
+   .body__container{
+    
+   }
+
 
 }

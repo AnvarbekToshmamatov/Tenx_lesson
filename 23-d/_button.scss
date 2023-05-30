@@ -1,0 +1,115 @@
+@import "./uzgaruvchi";
+
+// .box2 {
+//     margin-top: 40px;
+//     height: 100vh;
+//     display: flex;
+//     flex-direction: column;
+
+//     .input1 {
+//         width: 300px;
+//         border-radius: 4px;
+//         padding: 12px 19px 12px 15px;
+//         margin-bottom: 30px;
+        
+//     }
+    
+//    p{
+//     color: $danger;
+//    }
+
+//     .input1::placeholder {
+//         @extend %placeholder;
+//     }
+
+//     .input2 {
+//         border: solid $rang1;
+//     }
+
+//     .input3 {
+//         border: solid $blue;
+//         caret-color: $blue;
+//     }
+
+//     .input4 {
+//         border: solid $danger;
+//         caret-color: red;
+        
+//     }
+
+//     .input5 {
+//         border: solid $primary;
+//         caret-color: $primary;
+//     }
+
+//     .input6 {
+//         border: none;
+//         background-color: #f4f4fa;
+//     }
+
+// }
+
+
+
+
+// @mixin size($padding,$fontSize){
+//     font-size: $padding;
+//     padding: $fontSize;
+// }
+
+// button {
+//     padding: 8px 16px;
+//     border-radius: 4px;
+
+//     font: {
+//         size: 16px;
+//         width: 400;
+//     }
+
+//     line-height: 24px;
+//     color: #fff;
+//     border: none;
+//     cursor: pointer;
+
+//     &.btn-pr{
+//         @extend .btn;
+//         background-color: $primary;
+//     }
+
+//     &.btn-dn {
+//         @extend .btn;
+//         background-color: $danger;
+//     }
+
+//     &.btn-blue {
+//         @extend .btn;
+//         background-color: $blue;
+//     }
+
+//     &.btn-large {
+//         @include size(12px 24px,16px)
+//         // padding: 12px 24px;
+//     }
+
+//     &.btn-small {
+//         @include size(5px 8px, 14px)
+//         // padding: 5px 8px;
+//     }
+// }
+
+
+
+
+// // 1-usul
+// // .btn-pr{
+// //     @extend %btn;
+// //     background-color: $primary;
+// // }
+// // .btn-dn{
+// //     @extend %btn;
+// //     background-color: $danger;
+// // }
+// // .btn-blue{
+// //     @extend %btn;
+// //     background-color: $blue;
+// // }

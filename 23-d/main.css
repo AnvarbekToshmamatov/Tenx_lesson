@@ -1,0 +1,121 @@
+.boxs {
+  margin-top: 60px;
+  width: 1200px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  gap: 0;
+}
+.boxs .box1 {
+  width: 280px;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #0060b9;
+  position: relative;
+  transition: 0.5s;
+  width: 25%;
+}
+.boxs .box1 p {
+  width: 90%;
+}
+.boxs .box1 span {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #0060b9;
+  top: 60px;
+  left: 275px;
+  transform: rotate(45deg);
+  z-index: 1;
+  transition: 0.5s;
+}
+.boxs .box1:hover {
+  background-color: aquamarine;
+}
+.boxs .box1:hover span {
+  background-color: aquamarine;
+}
+.boxs .box2 {
+  background-color: #258750;
+}
+.boxs .box2 span {
+  background-color: #258750;
+}
+.boxs .box3 {
+  background-color: #b63546;
+}
+.boxs .box3 span {
+  background-color: #b63546;
+}
+.boxs .box4 {
+  background-color: #81a22c;
+}
+.boxs .box4 span {
+  display: none;
+}
+.boxs .box5 {
+  background-color: yellow;
+}
+.boxs .box5 span {
+  background-color: yellow;
+}
+.boxs .box6 {
+  background-color: rgb(212, 70, 181);
+}
+.boxs .box6 span {
+  background-color: rgb(212, 70, 181);
+}
+.boxs .box7 {
+  background-color: gold;
+}
+.boxs .box7 span {
+  background-color: gold;
+}
+.boxs .box8 {
+  background-color: rgb(50, 211, 214);
+}
+.boxs .box8 span {
+  display: none;
+}
+
+@media (min-width: 0) and (max-width: 360px) {
+  .boxs {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .boxs .box1 {
+    width: 80%;
+    margin: 0 auto;
+    height: 300px;
+    font-size: 40px;
+  }
+}
+@media (min-width: 360.1px) and (max-width: 740px) {
+  .boxs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+  }
+  .boxs .box1 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .boxs .box1 span {
+    display: none;
+  }
+}
+@media (min-width: 740.1px) {
+  .boxs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .boxs .box1 {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}/*# sourceMappingURL=main.css.map */

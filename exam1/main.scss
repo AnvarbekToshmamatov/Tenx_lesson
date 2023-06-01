@@ -1,0 +1,25 @@
+@import "./uzgaruvchilar";
+@import "./header";
+@import "./section";
+@import "./media";
+@font-face {
+    font-family: Inter;
+    src: url(./fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 26px 0 44px;
+}
+
+@for $i from 1 through 12{
+    .col-#{$i}{
+        width: (100% / 12) * $i;
+    }
+}

@@ -1,0 +1,239 @@
+@font-face {
+    font-family: Inter;
+    src: url(./fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.section{
+
+    width: 1920px;
+    .section1__text{
+        span{
+            margin-right: 570px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #2C2C2C;        
+        }
+    }
+
+    background: $RDDDDDD;
+    .display{
+        background-color: $R8FD8AC;
+        display: flex;
+        gap: 82px;
+
+        .text{
+            p{
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 600;
+               font-size: 20px;
+               line-height: 24px;
+              color: #FFFFFF;
+                
+            }
+            span{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #FFFFFF;        
+            }
+        }
+    }
+
+}
+
+.pbag{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2C2C2C;    
+}
+
+.psmall{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2C2C2C;
+    opacity: 0.5;    
+}
+
+.pading30{
+    padding: 30px;
+}
+.pading40{
+    padding: 40px;
+}
+
+.mb25{
+    margin-bottom: 25px;
+}
+
+.bg_wdtih{
+    background-color: #FFFFFF;
+}
+
+.bg_DDD{
+    background-color: $RDDDDDD;
+}
+
+.bg_s1{
+    background-color: $RFAFBFD;
+}
+
+.cwdtih{
+    color: #FFFFFF;
+}
+.mb40{
+    margin-bottom: 40px;
+}
+
+.mr30{
+    margin: 30px 0;
+}
+
+.cblack{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2C2C2C;    
+}
+
+.cblack2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;    
+}
+
+.cblack3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;    
+}
+
+.font_inter
+{
+    font-family: "Inter";
+}
+
+.df{
+    display: flex;
+}
+
+.br8{
+    border-radius: 8px;
+}
+
+.mrr{
+    margin-right: 30px;
+}
+
+.mrr81{
+    margin-right: 81px;
+}
+
+.mr390{
+    margin-right: 390px;
+}
+
+.span__bg{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 10px;
+    gap: 10px;
+    width: 46px;
+    height: 20px;
+    background: #FFF7DA;
+    border-radius: 45px;    
+}
+
+.ml68{
+    margin-left: 68px;
+}
+
+.aIc{
+    align-items: center;
+}
+.mt30{
+    margin-top: 30px;
+}
+.mb8{
+    margin-bottom: 8px;
+}
+
+.ovhedn{
+    overflow: hidden;
+}
+
+.bradus12{
+    border-radius: 12px;
+}
+
+.oposty4{
+    opacity:0.4;
+}
+
+.bordred{
+    border: 1px solid yellow;
+}
+
+.mrr760{
+    margin-right: 720px;
+}
+
+.pading10{
+    padding: 10px;
+}
+
+.span2_bg{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 10px;
+    gap: 10px;
+    position: absolute;
+    width: 86px;
+    height: 20px;
+    right: 10px;
+    bottom: 10px;
+    background: #F6F7F8;
+    border-radius: 45px;    
+}
+
+.fontswl{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;    
+}
+
+.ml27{
+    margin-left: 27px;
+}
+
+.mrr30{
+    margin-right: 30px;
+}
+
+.width378{
+    width: 378px;
+}
+
+.mrr780{
+    margin-right: 760px;
+}
+
+.inter{
+    font-family: "Inter";
+}

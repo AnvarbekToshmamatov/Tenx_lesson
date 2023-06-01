@@ -1,0 +1,63 @@
+@import "./header";
+@import "./section";
+
+@media (min-width:0) and (max-width:360px){
+
+    .container{
+        margin-left: 0 10px;
+    }
+    header{
+        width: 200%;
+
+        .header__nav{
+            display: none;
+        }
+
+        .header__icon{
+            :nth-child(1){
+                display: none;
+            }
+            :nth-child(3){
+                display: none;
+            }
+        }
+
+        .header__input{
+            display: none;
+        }
+
+        .header__menu{
+            display: inline-block;
+        }
+    }
+    .section{
+        width: 200%;
+
+        .c6_1{
+            width: 200%;
+        }
+
+        .section__js2_1{
+            display: inline-block;
+            
+            .box1__js2{
+                width: 360px;
+                margin-bottom: 30px;
+            }
+        }
+
+        .photos{
+            display: flex;
+            flex-direction: column;
+
+            img{
+                width: 50%;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .dib{
+        display: inline-block;
+    }
+}

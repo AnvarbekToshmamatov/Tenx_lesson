@@ -1,0 +1,110 @@
+
+@import "./uzgaruvchilar";
+
+header{
+    width: 1920px;
+    height: 96px;
+    .box__header{
+        display: flex;
+        
+
+        a{
+            text-decoration: none;
+        }
+
+        .header__recru{
+            margin: 40px 123px 40px 0;
+
+            p{
+                width: 106.29px;
+                height: 15.71px;
+                color:$blask ; 
+                font-size: 20px; 
+                
+                span{
+                    color: $R7B83CE;
+                }
+            }
+        }
+
+        .header__nav{
+
+            margin-top: 38px;
+            margin-bottom: 38px;
+            ul{
+                display: flex;
+                gap: 40px;
+                margin-right: 265px;
+
+                li{
+                    list-style: none;
+                     
+                    a{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: $R2C2C2C;
+                                
+                    }
+                }
+
+                 a:hover{
+                    text-decoration:underline;
+                    color: $R8FD8AC; 
+                }
+
+        }
+    }
+
+    .header__input{
+        margin: 27px 305px 27px 0;
+        input{
+            padding: 12px 36px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 12px 36px 13px;
+            gap: 10px;
+            width: 269px;
+            height: 42px;
+            border: 1px solid $R7B83CE;
+            border-radius: 40px; 
+            
+            ::placeholder{
+                width: 197px;
+                height: 17px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color:$R7B83CE;        
+            }
+        }
+    }
+
+    .header__icon{
+        margin: 26px 0;
+        ul{
+            display: flex;
+             gap: 30px;
+             align-items: center;
+
+             li{
+                list-style: none;
+             }
+        }
+    }
+}
+}
+
+.dsnone{
+    display: none;
+}
+
+.ml198{
+    margin-left: 197px;
+}

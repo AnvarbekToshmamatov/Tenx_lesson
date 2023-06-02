@@ -1,0 +1,566 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url(fonts/Ubuntu-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "STIX Two Math";
+  src: url(fonts/STIXTwoText-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "STIX Two text";
+  src: url(fonts/STIXTwoText-Italic-VariableFont_wght.ttf);
+}
+.body_Container {
+  margin: 0 auto;
+  width: 1920px;
+  background-color: #161722;
+}
+
+.container {
+  width: 1820.26px;
+  margin: 0 auto;
+}
+
+.container2 {
+  margin: 0 130px;
+}
+
+.box {
+  width: 1920px;
+  background-color: #161722;
+  height: 96px;
+  align-items: center;
+  display: flex;
+}
+.box span {
+  margin-right: 96px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 24px;
+  color: #C6C6C7;
+}
+
+header {
+  width: 1920px;
+  background-color: #161722;
+}
+header .header__section {
+  background-image: url(img/header__section_orqafon.svg);
+  background-repeat: no-repeat;
+  background: linear-gradient(90.39deg, rgba(40, 44, 86, 0.7) 0.31%, rgba(0, 0, 0, 0) 103.63%), url(img/header__section_orqafon.svg);
+  border-radius: 65px;
+  height: 1272px;
+}
+header .header__section .box__header {
+  display: flex;
+}
+header .header__section .box__header .header__logo {
+  margin-top: 63px;
+  margin-right: 129px;
+}
+header .header__section .box__header .header__navbar {
+  margin-top: 43px;
+  margin-right: 129px;
+  align-items: flex-start;
+  padding: 15px 81px;
+  gap: 99px;
+  width: 982px;
+  height: 65px;
+  background: #FFFFFF;
+  border-radius: 71px;
+}
+header .header__section .box__header .header__navbar ul {
+  display: flex;
+  gap: 99px;
+}
+header .header__section .box__header .header__navbar ul li {
+  list-style: none;
+}
+header .header__section .box__header .header__navbar ul li a {
+  text-decoration: none;
+  font-family: "STIX Two Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  text-transform: lowercase;
+  color: #161722;
+}
+header .header__section .box__header .header__button button {
+  margin-top: 39px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 19px 70px;
+  gap: 10px;
+  width: 227px;
+  height: 73px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #161722;
+  border-radius: 50px;
+  border: none;
+}
+header .header__section .box__header .header__button button span {
+  font-family: "STIX Two Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  text-transform: lowercase;
+  color: #FFFFFF;
+}
+header .header__section .text__header .p1 {
+  width: 822px;
+  height: 315px;
+  margin-top: 257px;
+  font-family: "STIX Two Math";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 105px;
+  color: #FFFFFF;
+  margin-bottom: 37px;
+}
+header .header__section .text__header .p2 {
+  width: 608px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 39px;
+  color: #FFFFFF;
+  margin-bottom: 37px;
+}
+header .header__section .text__header .header__button_a {
+  display: flex;
+  align-items: center;
+}
+header .header__section .text__header .header__button_a button {
+  cursor: pointer;
+  border: none;
+  margin-right: 37px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 19px 70px;
+  gap: 10px;
+  width: 221px;
+  height: 73px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #161722;
+  border-radius: 50px;
+}
+header .header__section .text__header .header__button_a button span {
+  font-family: "STIX Two Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+header .header__section .text__header .header__button_a a {
+  height: 34px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+.number {
+  width: 1920px;
+  height: 365px;
+  background-color: #161722;
+}
+.number .container2 {
+  padding-left: 62px;
+}
+.number ul {
+  display: flex;
+  gap: 212px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 62px;
+}
+.number ul li {
+  margin-top: 88px;
+  text-align: center;
+  list-style: none;
+}
+.number ul li p {
+  font-family: "STIX Two Math";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 109px;
+  line-height: 136px;
+  color: #FFFFFF;
+}
+.number ul li span {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: #C6C6C7;
+}
+
+.sanitary {
+  background-color: #161722;
+}
+.sanitary p {
+  margin-top: 80px;
+  margin-bottom: 47px;
+  width: 931px;
+  height: 113px;
+  font-family: "STIX Two Math";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 112px;
+  color: #FFFFFF;
+}
+.sanitary b {
+  width: 1040px;
+  height: 117px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  color: #C6C6C7;
+  margin-bottom: 47px;
+}
+.sanitary button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 19px 70px;
+  gap: 10px;
+  width: 423px;
+  height: 73px;
+  background: #FFFFFF;
+  border-radius: 50px;
+  border: none;
+  margin-bottom: 217px;
+}
+.sanitary button span {
+  font-family: "STIX Two Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  color: #161722;
+}
+
+.our .our__c {
+  margin-bottom: 99px;
+  width: 481px;
+  height: 113px;
+  font-family: "STIX Two Math";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 112px;
+  color: #FFFFFF;
+}
+.our .our__img__text {
+  display: flex;
+  gap: 546px;
+}
+.our .our__img__text .our__img1 {
+  display: flex;
+  flex-direction: column;
+  gap: 240px;
+}
+.our .our__img__text .our__text p {
+  width: 164px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 52px;
+  color: #FFFFFF;
+  margin-bottom: 36px;
+}
+.our .our__img__text .our__text b {
+  width: 602px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 39px;
+  color: #C6C6C7;
+  margin-bottom: 36px;
+}
+.our .our__img__text .our__text div {
+  margin-top: 36px;
+  margin-bottom: 289px;
+}
+.our .our__img__text .our__text div a {
+  width: 149px;
+  height: 34px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+.bgwid {
+  background-color: #FFFFFF;
+}
+
+.References {
+  width: 1920px;
+}
+.References .ref {
+  box-sizing: border-box;
+  display: flex;
+  width: 1856px;
+  height: 2469px;
+  background-color: #FFFFFF;
+  border: 1px solid #707070;
+  border-radius: 65px;
+}
+.References .ref .container2 {
+  display: flex;
+  gap: 120px;
+}
+.References .ref .container2 .Refer__img {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+.References .ref .container2 .refer__img2 div {
+  margin: 165px 0 9px 0;
+}
+.References .ref .container2 .refer__img2 div a {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-decoration-line: underline;
+  color: #161722;
+}
+.References .ref .container2 .refer__img2 div a img {
+  color: #161722;
+}
+.References .ref .container2 .Refer__img1 p {
+  margin: 162px 0 90px 0;
+  width: 414px;
+  height: 113px;
+  font-family: "STIX Two Math";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 112px;
+  color: #161722;
+}
+
+.how {
+  width: 1920px;
+}
+.how .how__box {
+  width: 1854px;
+  height: 932px;
+  left: calc(50% - 927px);
+  top: 6956px;
+  background: linear-gradient(89.79deg, #FFFFFF 7.17%, rgba(255, 255, 255, 0.32) 88.4%), url(steven-ungermann-Aac7IlKnYX8-unsplash.jpg);
+  border-radius: 65px;
+  padding-top: 247px;
+}
+.how .how__box .howp1 {
+  margin: 0px 0 24px 0;
+  width: 858px;
+  height: 113px;
+  font-family: "STIX Two Math";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 112px;
+  color: #161722;
+}
+.how .how__box .howp2 {
+  margin-bottom: 24px;
+  width: 600px;
+  height: 205.75px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 39px;
+  color: #696969;
+}
+.how .how__box button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 19px 70px;
+  gap: 10px;
+  width: 347px;
+  height: 73px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #161722;
+  border-radius: 50px;
+  margin-bottom: 246px;
+}
+.how .how__box button span {
+  font-family: "STIX Two Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+
+.team p {
+  margin: 81px 0 247px 0;
+  width: 381px;
+  height: 113px;
+  font-family: "STIX Two Math";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 112px;
+  color: #FFFFFF;
+}
+.team .Rap p {
+  width: 300px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 67px;
+  line-height: 77px;
+  color: #FFFFFF;
+  margin-bottom: 28px;
+}
+.team .Rap b {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 39px;
+  color: #C6C6C7;
+  margin-bottom: 28px;
+}
+.team .Rap span {
+  width: 1559px;
+  height: 8px;
+  background-color: #696969;
+  color: #696969;
+  transform: rotate(180deg);
+}
+
+.What {
+  padding-bottom: 30px;
+  margin-top: 87px;
+}
+.What .container {
+  background-color: #FFFFFF;
+  border-radius: 65px;
+}
+.What .what__box {
+  display: flex;
+  gap: 120px;
+}
+.What .what__box .boxx {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+.What .what__box .what__box1 p {
+  margin: 155px 0 52px 0;
+  font-family: "STIX Two Math";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 112px;
+  color: #161722;
+}
+.What .what__box .what__box2 {
+  padding-top: 155px;
+}
+
+.help {
+  height: 883px;
+  text-align: center;
+  margin: 0 auto;
+}
+.help .container2 {
+  margin: 0 auto;
+}
+.help .container2 .helpp1 {
+  margin: 191px 0 36px 0;
+  font-family: "STIX Two Math";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 112px;
+  color: #FFFFFF;
+}
+.help .container2 .helpp2 {
+  margin: 0 auto;
+  width: 700px;
+  height: 205.75px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 39px;
+  text-align: center;
+  color: #C6C6C7;
+  margin-bottom: 36px;
+}
+.help .container2 button {
+  border: none;
+  margin-top: 56px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 19px 70px;
+  gap: 10px;
+  width: 534px;
+  height: 73px;
+  background: #FFFFFF;
+  border-radius: 50px;
+  margin-bottom: 229px;
+}
+.help .container2 button span {
+  font-family: "STIX Two Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  color: #161722;
+}
+
+.nom {
+  height: 80px;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.nom p {
+  margin: 0 auto;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 31px;
+  color: #FFFFFF;
+}/*# sourceMappingURL=main.css.map */

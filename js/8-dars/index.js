@@ -185,8 +185,8 @@
 // }
 // son=1
 // }
-
-// for(let k=Object.values(obj).length;k>0;k--){
+// // console.log(Object.values(obj));
+// for(let k=Object.values(obj).length-1;k>=0;k--){
 //     if(Math.max(Object.values(obj)[k],Object.values(obj)[k-1])){
 //         new1=Math.max(Object.values(obj)[k],Object.values(obj)[k-1])
 //     k=k
@@ -206,10 +206,28 @@
 //             }
 //             if(new1==valyue){
 //                 return str.slice(0,i)
-//             }else{
-//                 return str
+//             }else {
+//                 // return str
 //             }
 //         }
+//   if(new1<valyue){
+//     return str
+//   }
 // }}
 
-// console.log(foo(str,6));
+// console.log(foo(str,5));
+
+
+
+
+// const arr=[
+//     {
+//     name:'John',
+//     age:19,
+// },
+// {
+//     name:'Johns',
+//     age:10,  
+// }
+// ]
+// console.log(arr[0]);

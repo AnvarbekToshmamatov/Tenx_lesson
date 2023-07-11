@@ -1,0 +1,530 @@
+// @import "/style/main.scss";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.AppFeature{
+    width: 1440px;
+    margin: 0 auto;
+    background-image: url(../../imges/Rectangle.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 120px 0;
+    .container{
+        width:1162px ;
+        // padding: 0 9.4%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        text-align: center;
+        .app_header{
+            .title{
+                color: var(--white, #FFF);
+                font-family: 'Josefin Sans';
+                font-size: 31.25px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 47.25px;
+                text-transform: uppercase;
+                margin-bottom: 18px;
+            }
+            .subtitle{
+                color: var(--white, #FFF);
+                text-align: center;
+                font-family: 'Josefin Sans';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                margin-bottom: 60px;
+            }
+        }
+
+        .item2{
+            .icon{
+                margin-bottom: 22px;
+            }
+            .title{
+                color: var(--white, #FFF);
+                text-align: center;
+                font-family: 'Josefin Sans';
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 37.5px;
+                text-transform: uppercase;
+                margin-bottom: 18px;
+            }
+            .subtitle{
+                color: var(--white, #FFF);
+                text-align: center;
+                font-family: 'Josefin Sans';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+        .items{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            align-items: center;
+            grid-column-gap: 60px;
+            text-align: center;
+            .item5 {
+                .img {
+                    img {
+                        // width: 100%;
+                        border-radius: 40px;
+                        box-shadow: 40px 40px 100px 0px rgba(24, 48, 63, 0.50);
+                    }
+                }
+            }
+            .item_block1{
+                margin-right: 60px;
+                .item3, .item4{
+                    .icon{
+                        margin-bottom: 22px;
+                        text-align: end;
+                    }
+                    .title{
+                        color: var(--white, #FFF);
+                        text-align: end;
+                        font-family: 'Josefin Sans';
+                        font-size: 25px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 37.5px;
+                        text-transform: uppercase;
+                        margin-bottom: 18px;
+                        width: 346px;
+                    }
+                    .subtitle{
+                        color: var(--white, #FFF);
+                        text-align: end;
+                        font-family: 'Josefin Sans';
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        margin-bottom: 250px;
+                    }
+                }
+                
+            }
+            .item_block2{
+                .item6, .item7{
+                    .icon{
+                        margin-bottom: 22px;
+                        text-align: start;
+                    }
+                    .title{
+                        color: var(--white, #FFF);
+                        text-align: right;
+                        font-family: 'Josefin Sans';
+                        font-size: 25px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 37.5px;
+                        text-transform: uppercase;
+                        width: 346px;
+                    }
+                    .subtitle{
+                        color: var(--white, #FFF);
+                        text-align: start;
+                        font-family: 'Josefin Sans';
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        margin-bottom: 250px;
+                    }
+                }
+                
+            }
+
+        
+        }
+        .item8{
+            .icon{
+                margin-bottom: 22px;
+            }
+            .title{
+                color: var(--white, #FFF);
+                text-align: center;
+                font-family: 'Josefin Sans';
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 37.5px;
+                text-transform: uppercase;
+                margin-bottom: 18px;
+            }
+            .subtitle{
+                color: var(--white, #FFF);
+                text-align: center;
+                font-family: 'Josefin Sans';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+        
+    }
+}
+
+@media  (min-width: 768px) and (max-width: 1024px) {
+    .AppFeature{
+        background-image: url(../../imges/Rectangle.png);
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        padding: 120px 0;
+        .container{
+            max-width: 688px ;
+            // padding: 0 9.4%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: auto;
+            align-items: center;
+            text-align: center;
+            .app_header{
+                .title{
+                    color: var(--white, #FFF);
+                    font-family: 'Josefin Sans';
+                    font-size: 31.25px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 47.25px;
+                    text-transform: uppercase;
+                }
+                .subtitle{
+                    color: var(--white, #FFF);
+                    text-align: center;
+                    font-family: 'Josefin Sans';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+    
+            .item2{
+                .icon{
+                    margin-bottom: 22px;
+                    text-align: center;
+                }
+                .title{
+                    color: var(--white, #FFF);
+                    text-align: center;
+                    font-family: 'Josefin Sans';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 30px;
+                    text-transform: uppercase;
+                }
+                .subtitle{
+                    color: var(--white, #FFF);
+                    text-align: center;
+                    font-family: 'Josefin Sans';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+            .items{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                //align-items: center;
+                grid-column-gap: 18px;
+                text-align: center;
+                .item5 {
+                    .img {
+                        img {
+                            // width: 100%;
+                            border-radius: 40px;
+                            box-shadow: 40px 40px 100px 0px rgba(24, 48, 63, 0.50);
+                            width: 214px;
+                            height: 468px;
+                           
+                        }
+                    }
+                }
+                .item_block1{
+                    margin-right: 0;
+                    .item3, .item4{
+                        .icon{
+                            margin-bottom: 22px;
+                            // text-align: end;
+                            // width: 50px;
+                        }
+                        .title{
+                            color: var(--white, #FFF);
+                            text-align: end;
+                            font-family: 'Josefin Sans';
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 30px;
+                            text-transform: uppercase;
+                            margin-bottom: 18px;
+                            width: 346px;
+                        }
+                        .subtitle{
+                            color: var(--white, #FFF);
+                            text-align: end;
+                            font-family: 'Josefin Sans';
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px;
+                            margin-bottom: 250px;
+                        }
+                    }
+                    
+                }
+                .item_block2{
+                    .item6, .item7{
+                        .icon{
+                            margin-bottom: 22px;
+                            text-align: start;
+                        }
+                        .title{
+                            color: var(--white, #FFF);
+                            text-align: right;
+                            font-family: 'Josefin Sans';
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 30px;
+                            text-transform: uppercase;
+                            width: 346px;
+                        }
+                        .subtitle{
+                            color: var(--white, #FFF);
+                            text-align: start;
+                            font-family: 'Josefin Sans';
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px;
+                            margin-bottom: 250px;
+                        }
+                    }
+                    
+                }
+    
+            
+            }
+            .item8{
+                .icon{
+                    margin-bottom: 22px;
+                }
+                .title{
+                    color: var(--white, #FFF);
+                    text-align: center;
+                    font-family: 'Josefin Sans';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 30px;
+                    text-transform: uppercase;
+                    margin-bottom: 18px;
+                }
+                .subtitle{
+                    color: var(--white, #FFF);
+                    text-align: center;
+                    font-family: 'Josefin Sans';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+            
+        }
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .AppFeature{
+        background-image: url(../../imges/Rectangle.png);
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        padding: 120px 0;
+        .container{
+            max-width: 300px ;
+            // padding: 0 9.4%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            .app_header{
+                .title{
+                    color: var(--white, #FFF);
+                    font-family: 'Josefin Sans';
+                    font-size: 31.25px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 47.25px;
+                    text-transform: uppercase;
+                }
+                .subtitle{
+                    color: var(--white, #FFF);
+                    text-align: center;
+                    font-family: 'Josefin Sans';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+    
+            .item2{
+                .icon{
+                    margin-bottom: 22px;
+                    text-align: center;
+                }
+                .title{
+                    color: var(--white, #FFF);
+                    text-align: center;
+                    font-family: 'Josefin Sans';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 30px;
+                    text-transform: uppercase;
+                }
+                .subtitle{
+                    color: var(--white, #FFF);
+                    text-align: center;
+                    font-family: 'Josefin Sans';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-bottom: 40px;
+                }
+            }
+            .items{
+                display: grid;
+                grid-template-columns: none;
+                //align-items: center;
+                grid-column-gap: 18px;
+                text-align: center;
+                .item5 {
+                    .img {
+                        img {
+                            // width: 100%;
+                            border-radius: 40px;
+                            box-shadow: 40px 40px 100px 0px rgba(24, 48, 63, 0.50);
+                            width: 214px;
+                            height: 468px;
+                            margin-bottom: 120px;
+                           
+                        }
+                    }
+                }
+                .item_block1{
+                    margin-right: 0;
+                    .item3, .item4{
+                        .icon{
+                            margin-bottom: 22px;
+                            text-align: center;
+                            // width: 50px;
+                        }
+                        .title{
+                            color: var(--white, #FFF);
+                            text-align: center;
+                            font-family: 'Josefin Sans';
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 30px;
+                            text-transform: uppercase;
+                            margin-bottom: 18px;
+                            width: 346px;
+                        }
+                        .subtitle{
+                            color: var(--white, #FFF);
+                            text-align: center;
+                            font-family: 'Josefin Sans';
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px;
+                            margin-bottom: 40px;
+                        }
+                    }
+                    
+                }
+                .item_block2{
+                    .item6, .item7{
+                        .icon{
+                            margin-bottom: 22px;
+                            text-align: center;
+                        }
+                        .title{
+                            color: var(--white, #FFF);
+                            text-align: center;
+                            font-family: 'Josefin Sans';
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 30px;
+                            text-transform: uppercase;
+                            width: 346px;
+                        }
+                        .subtitle{
+                            color: var(--white, #FFF);
+                            text-align: center;
+                            font-family: 'Josefin Sans';
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px;
+                            margin-bottom: 40px;
+                        }
+                    }
+                    
+                }
+    
+            
+            }
+            .item8{
+                .icon{
+                    margin-bottom: 22px;
+                }
+                .title{
+                    color: var(--white, #FFF);
+                    text-align: center;
+                    font-family: 'Josefin Sans';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 30px;
+                    text-transform: uppercase;
+                    margin-bottom: 18px;
+                }
+                .subtitle{
+                    color: var(--white, #FFF);
+                    text-align: center;
+                    font-family: 'Josefin Sans';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+            
+        }
+    }
+}

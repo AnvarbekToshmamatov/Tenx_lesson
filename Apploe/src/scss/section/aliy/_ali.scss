@@ -1,0 +1,11 @@
+@import './video_player';
+@import './our_team';
+
+@media screen and (max-width:1435px) {
+    #use_perfectly{
+        display: none;
+    }
+    #our_team{
+        display: none;
+    }
+}

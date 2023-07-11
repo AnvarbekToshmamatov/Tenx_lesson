@@ -1,0 +1,27 @@
+@mixin d-flex($gap){
+    display: flex;
+    align-items: center;
+    gap:$gap;
+}
+@mixin d-column($gap){
+    display: flex;
+    flex-direction:column;
+    gap:$gap;
+}
+@mixin hover(){
+    transition: all 1s;
+    &:hover{
+        transform:scale(1.1);
+        background-color:$blue-color;
+        color:white;
+        box-shadow: 20px 20px 10px 0px rgba(0, 0, 0, 0.10);
+        p{
+            transition:all 1s;
+            color:white;
+        }
+        i{
+            transition: all 1.3s;
+            color:white !important;
+        }
+    }
+}

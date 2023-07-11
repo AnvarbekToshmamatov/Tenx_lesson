@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url(../../public/fonts/JosefinSans-Medium.ttf);
+}
+
+html {
+  scroll-behavior: smooth
+}
+
+@import '../scss/foo/global';
+@import "../scss/foo/colors";
+@import "../scss/foo/display";
+@import "../scss/foo/global";
+@import "../scss/foo/mixins";
+@import "../scss/section/aliy/ali";
+@import "../scss/section/anvarbek";
+@import "../scss/section/asadbek";
+@import "../scss/section/mohira";
+@import "../scss/section/samandar";
+@import "../scss/section/suhrob";

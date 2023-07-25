@@ -110,153 +110,153 @@
 
 ///=============== uyga vazifa ======================
 
-const contacts = [
-    {
-        id: 1,
-        name: 'Ravshan',
-        phoneNumber: '910718903',
-        avatar: ['https://qanadir image manzili', 'https://ikkinchi usuli'],
-        lastActive: '10:24',
-        userName: '@ kotta_bola',
-        bio: "San o'qigan kitobni man yozganman sakrama, auf",
-        balance: 100,
-        tasks: [
-            {
-                data: '12',
-                isFinite: true
-            },
-            {
-                data: '13',
-                isFinite: true
-            },
-            {
-                data: '14',
-                isFinite: true
-            },
-            {
-                data: '15',
-                isFinite: true
-            },
-            {
-                data: '16',
-                isFinite: false
-            },
-            {
-                data: '17',
-                isFinite: true
-            },
-            {
-                data: '18',
-                isFinite: true
-            },
-            {
-                data: '19',
-                isFinite: false
-            },
-            {
-                data: '20',
-                isFinite: true
-            }
-        ],
-    },
-    {
-        id: 2,
-        name: 'Abduhakim',
-        phoneNumber: '997570788',
-        avatar: ['https://qanadir image manzili', 'https://ikkinchi usuli'],
-        lastActive: 'Yaqinda online edi',
-        userName: '@ vorzakon',
-        bio: '2008 larni sindirish bandasiga emas',
-        balance: 200,
-        tasks: [
-            {
-                data: '12',
-                isFinite: true
-            },
-            {
-                data: '13',
-                isFinite: true
-            },
-            {
-                data: '14',
-                isFinite: true
-            },
-            {
-                data: '15',
-                isFinite: true
-            },
-            {
-                data: '16',
-                isFinite: true
-            },
-            {
-                data: '17',
-                isFinite: true
-            },
-            {
-                data: '18',
-                isFinite: false
-            },
-            {
-                data: '19',
-                isFinite: true
-            },
-            {
-                data: '20',
-                isFinite: true
-            }
-        ]
+// const contacts = [
+//     {
+//         id: 1,
+//         name: 'Ravshan',
+//         phoneNumber: '910718903',
+//         avatar: ['https://qanadir image manzili', 'https://ikkinchi usuli'],
+//         lastActive: '10:24',
+//         userName: '@ kotta_bola',
+//         bio: "San o'qigan kitobni man yozganman sakrama, auf",
+//         balance: 100,
+//         tasks: [
+//             {
+//                 data: '12',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '13',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '14',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '15',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '16',
+//                 isFinite: false
+//             },
+//             {
+//                 data: '17',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '18',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '19',
+//                 isFinite: false
+//             },
+//             {
+//                 data: '20',
+//                 isFinite: true
+//             }
+//         ],
+//     },
+//     {
+//         id: 2,
+//         name: 'Abduhakim',
+//         phoneNumber: '997570788',
+//         avatar: ['https://qanadir image manzili', 'https://ikkinchi usuli'],
+//         lastActive: 'Yaqinda online edi',
+//         userName: '@ vorzakon',
+//         bio: '2008 larni sindirish bandasiga emas',
+//         balance: 200,
+//         tasks: [
+//             {
+//                 data: '12',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '13',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '14',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '15',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '16',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '17',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '18',
+//                 isFinite: false
+//             },
+//             {
+//                 data: '19',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '20',
+//                 isFinite: true
+//             }
+//         ]
 
-    },
-    {
-        id: 3,
-        name: 'O`ktam',
-        phoneNumber: '930425848',
-        avatar: ['https://qanadir image manzili', 'https://ikkinchi usuli'],
-        lastActive: '10:56',
-        userName: '@ oktam_vines',
-        bio: 'Dasturlashni o`rgansang hayotni tushunib yeta olasan',
-        balance: 0,
-        tasks: [
-            {
-                data: '12',
-                isFinite: true
-            },
-            {
-                data: '13',
-                isFinite: true
-            },
-            {
-                data: '14',
-                isFinite: true
-            },
-            {
-                data: '15',
-                isFinite: true
-            },
-            {
-                data: '16',
-                isFinite: false
-            },
-            {
-                data: '17',
-                isFinite: true
-            },
-            {
-                data: '18',
-                isFinite: false
-            },
-            {
-                data: '19',
-                isFinite: true
-            },
-            {
-                data: '20',
-                isFinite: false
-            }
-        ]
-    },
-]
+//     },
+//     {
+//         id: 3,
+//         name: 'O`ktam',
+//         phoneNumber: '930425848',
+//         avatar: ['https://qanadir image manzili', 'https://ikkinchi usuli'],
+//         lastActive: '10:56',
+//         userName: '@ oktam_vines',
+//         bio: 'Dasturlashni o`rgansang hayotni tushunib yeta olasan',
+//         balance: 0,
+//         tasks: [
+//             {
+//                 data: '12',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '13',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '14',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '15',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '16',
+//                 isFinite: false
+//             },
+//             {
+//                 data: '17',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '18',
+//                 isFinite: false
+//             },
+//             {
+//                 data: '19',
+//                 isFinite: true
+//             },
+//             {
+//                 data: '20',
+//                 isFinite: false
+//             }
+//         ]
+//     },
+// ]
 
 /////////////////chopilganlar ruyhati//////////////////
 //   function chopish(arr){
@@ -463,3 +463,58 @@ const contacts = [
 
 
 
+//===================== 23.06 ==========================
+
+
+//bu set funksiyani jsda yaratilishi. bu birxillarni o'chirib tashlanadi
+// function set (arr){
+//     const res={}
+//     for(let i=0;i<arr.length;i++){
+//          res[arr[i]]=arr[i]
+//     }
+//     return Object.keys(res)
+// }
+// console.log(['apple','apple','banana']);
+
+
+
+
+
+
+// const str='salom sdunyo'
+// const obj={}
+// function foo(str){
+//     let arr=str.split('')
+//     let new1=0
+//     for(let i of arr){
+//         for(let a in arr){
+//             if(arr[a]==i){
+//                 new1+=1
+//             }
+//         }
+//         obj[i]=new1
+//         new1=0
+//     }
+//     const map= new Map(Object.entries(obj))
+//   return map
+// }
+// console.log(foo(str));
+
+
+
+// const str = 'JavaScript'
+// const map= new Map()
+// let new1=''
+// for(let i=0;i<str.length;i++){
+//     map.set(str[i],str[i])
+//     new1+=map.get(map.values())
+// }
+// console.log(new1);
+
+
+let index=0
+function onclickBtn(){
+    let colors=['red','green','blue','yellow']
+    document.getElementsByTagName('body')[0].style.background=colors[index++]
+    if(index>colors.length-1) index=0
+}

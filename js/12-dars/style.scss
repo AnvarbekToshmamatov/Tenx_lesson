@@ -1,0 +1,429 @@
+:root{
+    --color-black:#333333;
+    --color-grey:#858A8F;
+    --color-card-icon-1:#E5F1FF;
+    --color-bg:#eef2f6;
+    --color-white:#FFFFFF;
+    --color-blue: #377DFF;
+}
+
+.plans_table_seaction{
+    border: 1px solid red;
+    margin: 0 auto;
+    width: 1440px;
+    padding: 108px 297px 116px 297px;
+    background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+
+    .pt_p1{
+        display: flex;
+        width: 846px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #333;
+        text-align: center;
+        font-size: 60px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 73px; 
+        margin-bottom: 35px;       
+    }
+    .pt_sec_p2{
+        display: flex;
+        width: 741px;
+        height: 68px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #858A8F;
+        text-align: center;
+        font-size: 20px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 35px;        
+    }
+}
+
+.plans_table_base{
+    width: 1440px;
+    border: 1px solid red;
+    margin: 0 auto;
+    padding: 113px 100px 34px 416px;
+
+    .base_box{
+        display: flex;
+        gap: 32px;
+        
+        .base_p1{
+            color: #333;
+            font-size: 40px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 48px; 
+            margin: 0;       
+        }
+        .base_p2{
+            color: #333;
+            font-size: 48px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 58px; 
+            margin-top: 11px;       
+        }
+        .base_p3{
+            color: #858A8F;
+            font-size: 20px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;   
+            margin-top: 11px;     
+        }
+        .base_box_base button{
+            width: 286px;
+            height: 66px;
+            background-color: #E5F1FF;
+            padding: 20px 66px 22px 140px;
+            border: none;
+            border-radius: 4px;
+
+            span{
+                color: #377DFF;
+                font-size: 20px;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24px;        
+            }
+        }
+        .base_box_pro button{
+            width: 286px;
+            height: 66px;
+            flex-shrink: 0;
+            border: none;
+            border-radius: 4px;
+            padding: 20px 106px 22px 107px;   
+            background-color: #377DFF;
+            
+            span{
+                color: #FFF;
+                font-size: 20px;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24px;        
+            }
+        }
+        #bbb3{
+            padding: 20px 83px 22px 82px;
+        }
+    }
+}
+.bagbasic{
+ background-color: #F5F6FA;
+ margin: 28px 0;
+}
+
+.plans_table_basic,.plans_table_commerce{
+    margin:  auto;
+    width: 1440px;
+    border: 1px solid red;
+   
+    .container_pt{
+        margin-left: 98px;
+        margin-right: 100px;
+
+        .basics_p1 {
+            color: #333;
+            font-size: 24px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 29px;
+            margin-bottom: 51px; 
+                   
+        }
+        .Bandwidth_pt{
+            width: 1238px;
+            height: 128px;
+            border: 1px solid #d4d5d6;   
+            display: flex;
+            border-radius: 8px;
+            
+            .ban_pt_text{
+                p{
+                    color: #333;
+                    font-size: 20px;
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 24px;
+                    margin: 35px 159px 7px 52px;        
+                }
+                img{
+                    margin: 35px 159px 7px 52px;        
+                }
+                span{
+                    color: #858A8F;
+                    font-size: 18px;
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 22px;
+                    margin-right: 100px; 
+                    margin-left: 52px;       
+                }
+            }
+            .ban_pt_gb1 p,img{
+                color: #333;
+                font-size: 20px;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24px;
+                margin: 51px 265px 55px 0;        
+            }
+
+            .ban_pt_gb2 p{
+                color: #333;
+                font-size: 20px;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24px;
+                margin: 51px 257px 55px 0;        
+            }
+            .ban_pt_text2 p{
+                color: #333;
+                font-size: 20px;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24px;
+                margin: 51px 194px 55px 0;        
+            }
+        }
+        button{
+            width: 604px;
+            height: 66px;
+            flex-shrink: 0;
+            margin: 52px 418px 124px 320px;  
+            background-color: #E5F1FF; 
+            padding: 20px 105px 22px 104px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:active{
+                transform: scale(0.95);
+            }
+            
+            span{
+                color: #377DFF;
+                font-size: 20px;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24px;        
+            }
+        }
+    }
+}
+
+/* advantages  start  */
+#advantages{
+    background-color:var(--color-bg);
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.advantages__title{
+    margin: 0 auto;
+    max-width: 922px;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+.advantages__title h2{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+    color:var(--color-black);
+   
+}
+.advantages__card{
+    max-width: 392px;
+    padding: 20px;
+    gap: 50px;
+    background-color: var(--color-white);
+    border-radius: 20px;
+    transition: all 0.4s ease;
+    margin-bottom: 10px;
+    
+}
+.advantages__card:hover{
+    transform: translateY(-40px);
+   
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.advantages__card .img{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: var(--color-card-icon-1);
+    width: 80px;
+    border-radius: 100%;
+    height: 80px;
+}
+.advantages__card .img img{
+    display: flex;
+    margin: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.advantages__card h3{
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color:var(--color-black);
+    margin-bottom: 20px;
+}
+.advantages__card p{
+    color: var(--color-grey);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+/*   advantages end */
+/* question start */
+#question{
+    background-color: var(--color-bg);
+}
+.question__in{
+    padding-top: 200px;
+    padding-bottom: 124px;
+
+}
+.question_title h2{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+    color: var(--color-black);
+    margin-bottom: 35px;
+}
+.question_title p{
+    color: var(--color-grey);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    max-width: 676px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+.row {
+    display: flex;
+}
+.row .col {
+    flex: 1;
+}
+.row .col:last-child {
+    margin-left: 1em;
+}
+/* Accordion styles */
+.tabs {
+    max-width: 880px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.tab {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    
+}
+.tab-label {
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-black);
+    padding: 32px 35px;
+    background: var(--color-white);
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.tab-label::after {
+    content: "\276F";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 0.35s;
+}
+.tab-content {
+    max-height: 0;
+    padding:0 35px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    color: var(--color-grey);
+    background: white;
+    transition: all 0.35s;
+    margin-top: -10px;
+}
+
+
+.tab-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    cursor: pointer;
+}
+.tab-close:hover {
+}
+input:checked + .tab-label {
+    color: var(--color-blue);
+}
+input:checked + .tab-label::after {
+    transform: rotate(90deg);
+}
+input:checked ~ .tab-content {
+    max-height: 100vh;
+    padding: 35px;
+    margin-top: -10px;
+}
+.question__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 83px;
+    border-radius: 10px;
+    max-width: 604px;
+    background-color: #E5F1FF;
+    /* padding-bottom: 124px; */
+    padding: 20px 79px;
+}
+.question__link a{
+    color: var(--color-blue);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+/*question end  */

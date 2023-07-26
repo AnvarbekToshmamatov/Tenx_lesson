@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box{
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            
+        } */
+        #uzum{
+            width: 1440px;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap:20px;
+            background-color: aqua;
+            padding: 20px;
+            margin: 0 auto;
+        }
+        .box{
+                width: 200px;
+                /* height: 200px; */
+                background-color: antiquewhite;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                border-radius: 5px; 
+                padding: 10px; 
+            }
+         span{
+            max-width: 190px;
+         }   
+        img{
+           width: 100%;
+         height: 100px;
+         }
+    </style>
+</head>
+<body>
+    
+    <!-- <select  id="region">
+        <option selected disabled>Viloyatni tanlang</option>
+    </select>
+    <select  id="districts">
+        <option selected disabled>Tumanni tanlang</option>
+    </select>
+    <div id="result"></div> -->
+
+
+    <!-- uzum    -->
+
+    <!-- - <select  id="region">
+        <option selected disabled>Yaqinda qo'shilganlar</option>
+    </select> -->
+    
+
+    <select  id="type">
+        <option disabled selected>Tanlovlar</option>
+        <option value="ommabop">ommabop</option>
+        <option value="Qimmatbaxo">Qimmatbaxo</option>
+        <option value="Arzonroq">Arzonroq</option>
+    </select>
+    <div id="uzum"></div>
+    <script src="./uzum.js"></script>
+</body>
+</html>

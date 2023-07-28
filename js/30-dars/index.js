@@ -36,9 +36,10 @@ function btn(e, e1, e2) {
 
 
     let soat = e * 60 * 60 * 1000 + e1 * 60 * 1000 + e2 * 1000
-
+    let r=0
+   r=(soat>59) ? soat/1000 :soat/100
     const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML = css;
-    addCSS(`#chiz2{transition: ${soat / 100}s;}`)
+    addCSS(`#chiz2{transition: ${r}s;}`)
 
 
 

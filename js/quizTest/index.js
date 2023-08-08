@@ -67,7 +67,7 @@ function btn() {
         <p class='vaqt'>1</p>
         <p class='nat'>to'g'ri javoblar soni: ${b}</p>
         <p class='nat'>Sermaxsullik:${(100 / 3) * b}%</p>
-        <button onclick='rst()'>Restart</button>`
+        `
 
     }
 
@@ -90,9 +90,5 @@ function btn() {
 
 }
 
-function rst() {
-    quizApp.setAttribute('id', 'quizApp')
-    quizApp.innerHTML = `<p>Quiz App</p>
-    <button onclick="btn()">Start quiz</button>`
-}
+
 

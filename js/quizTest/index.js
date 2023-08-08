@@ -58,15 +58,15 @@ function btn() {
     const quiz = document.querySelector('#quizApp1')
     if (i <= 6) {
         quiz.innerHTML =
-            arr[i]
+            `<div class='box1'>${arr[i]}</div>`
     } else {
         for (let a of arr1) {
             b = (a == 'Surxondaryo' || a == 'Tinch okeani' || a == 'Rossiya') ? b += 1 : b
         }
         quiz.innerHTML = `
-        <p class='vaqt'>1</p>
+        <div class='box1'><p class='vaqt'>1</p>
         <p class='nat'>to'g'ri javoblar soni: ${b}</p>
-        <p class='nat'>Sermaxsullik:${(100 / 3) * b}%</p>
+        <p class='nat'>Sermaxsullik:${(100 / 3) * b}%</p></div>
         `
 
     }

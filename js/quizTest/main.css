@@ -22,6 +22,19 @@
     color: blue;
 }
 
+.box1{
+    width: 800px;
+    height: 600px;
+    background-color: rgb(219, 187, 144);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    border-radius: 10px;    
+    box-shadow: 0 10px 25px 6px rgb(44, 43, 43);
+}
+
 #quizApp button {
     padding: 10px 20px;
     background-color: blue;
@@ -38,6 +51,14 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
+}
+
+b{
+    width: 30px;
+    height: 20px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
 }
 
 .box {

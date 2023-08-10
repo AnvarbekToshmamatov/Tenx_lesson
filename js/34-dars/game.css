@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    padding-top: 60px;
+}
+
+#game,
+#game1 {
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: rgb(35, 202, 146);
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px green;
+    gap: 30px;
+}
+
+#game p {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    color: blue;
+    box-shadow: 0 0 20px blue;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(147, 252, 217);
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#game button:hover {
+    background-color: rgb(50, 247, 145);
+    color: rgb(210, 54, 109);
+}
+
+#game1 input {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+#addTask {
+    /* width: 30px; */
+    padding: 10px 20px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#app {
+    font-size: 30px;
+    color: chartreuse;
+    /* box-shadow: 0 0 20px greenyellow; */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.p {
+    font-size: 25px;
+    color: rgb(6, 133, 42);
+    box-shadow: 0 0 20px green;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+span {
+    font-size: 20px;
+    color: rgb(255, 0, 212);
+    margin-top: 80px;
+}

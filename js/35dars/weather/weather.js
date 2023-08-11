@@ -57,5 +57,6 @@ function search() {
         shahar.innerHTML = `<span class='shaharName'>${input.value}</span>`
         obhv.innerHTML = `<span class='temp'>Temp: ${data.main.temp > 30 ? data.main.temp + ' ☀️' : data.main.temp < 0 ? data.main.temp + ' ❄️' : data.main.temp < 10 ? data.main.temp + ' 🌧' : data.main.temp + ' ⛅️'} </span>`
         shamol.innerHTML = `<span class='shml'>Shamol tezligi: ${data.wind.speed} m/s</span>`
+        input.value=''
     })()
 }

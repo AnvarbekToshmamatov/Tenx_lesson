@@ -1,10 +1,10 @@
 
-
+//http://167.71.202.51:8080/viloyat
 
 (async () => {
   const country = document.querySelector('#country')
   const box = document.querySelector('#container')
-  const respons = await fetch(`http://46.101.247.236:8080/viloyat`)
+  const respons = await fetch(`http://167.71.202.51:8080/viloyat`)
   const data = await respons.json()
   console.log(data);
   data.data.forEach(el => {
@@ -24,7 +24,7 @@ country.addEventListener('change', (e) => {
     const city = document.querySelector('#city')
     city.innerHTML = '<option selected disabled>Shaharni tanlang</option>'
 
-    const respons1 = await fetch(`http://46.101.247.236:8080/viloyat/${e.target.value}`)
+    const respons1 = await fetch(`http://167.71.202.51:8080/viloyat/${e.target.value}`)
     const data = await respons1.json()
 
     data.data.forEach(el => {
@@ -86,7 +86,7 @@ city.addEventListener('change', (e) => {
                             }
                           } </style>
                           <span class="loader"></span>`
-    const respons1 = await fetch(`http://46.101.247.236:8080/shahar/${e.target.value}`)
+    const respons1 = await fetch(`http://167.71.202.51:8080/shahar/${e.target.value}`)
     const data = await respons1.json()
     let arr = []
     box.innerHTML = ''
